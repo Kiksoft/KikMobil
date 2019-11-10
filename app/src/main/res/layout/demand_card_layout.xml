@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- A CardView that contains another views -->
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="4dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtTalepDosyano"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/colorinsGreen"
+            android:text="Dosya No: "
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"/>
+        <TextView
+            android:id="@+id/txtTalepIsinTanimi"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="İşin Tanımı: "
+            android:layout_below="@id/txtTalepDosyano"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/txtTalepAsama"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Aşama: "
+            android:layout_below="@id/txtTalepIsinTanimi"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack" />
+
+
+
+        <TextView
+            android:id="@+id/txtTalepBirim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:gravity="center_vertical"
+            android:layout_below="@id/txtTalepAsama"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorBlack"
+            android:text="Talep eden Birim:" />  <!--android:textSize="18sp"-->
+
+
+
+        <TextView
+            android:id="@+id/txtTalepEvrakno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@id/txtTalepBirim"
+            android:text="Talep evrak no:"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/txtTalepEvraktarihi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:padding="1dp"
+            android:layout_below="@id/txtTalepEvrakno"
+            android:text="Talep evrak tarihi: "
+            android:textColor="@color/colorBlack" />
+
+        <!--android:layout_alignBaseline="@id/txtDosyaturu"
+          android:layout_alignParentRight="true"-->
+
+
+        <TextView
+            android:id="@+id/txtTalepIdareadı"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:padding="1dp"
+            android:text="İdare Adı: "
+            android:layout_below="@id/txtTalepEvraktarihi"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/txtTalepGorevli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@id/txtTalepIdareadı"
+            android:text="Görevli:"
+            android:padding="1dp"
+            android:textColor="@color/colorBlack" />
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

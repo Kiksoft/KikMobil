@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- A CardView that contains another views -->
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="4dp">
+
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <TextView
+              android:id="@+id/txtDosyano"
+              android:layout_width="match_parent"
+              android:layout_height="20dp"
+              android:background="@color/colorinsGreen"
+              android:text="Dosya No: "
+              android:gravity="center_vertical"
+              android:textColor="@android:color/white"
+              android:textSize="14dp"/>
+
+          <TextView
+              android:id="@+id/txtAsama"
+              android:layout_width="match_parent"
+              android:layout_height="20dp"
+              android:text="Aşama: "
+              android:layout_below="@id/txtDosyano"
+              android:gravity="center_vertical"
+              android:textColor="@color/colorBlack"
+              android:textSize="14dp"/>
+
+
+
+          <TextView
+              android:id="@+id/txtFirmaadi"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="1dp"
+              android:gravity="center_vertical"
+              android:layout_below="@id/txtAsama"
+              android:layout_marginTop="10dp"
+              android:layout_marginLeft="5dp"
+              android:textColor="@color/colorBlack"
+              android:text="Firma Adı:" />  <!--android:textSize="18sp"-->
+
+          <View
+
+              android:id="@+id/dark"
+              android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="#000000" />
+
+          <TextView
+              android:id="@+id/txtDosyaturu"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="1dp"
+              android:layout_marginTop="10dp"
+              android:layout_marginLeft="5dp"
+              android:layout_below="@id/txtFirmaadi"
+              android:text="Dosya Türü:"
+              android:textColor="@color/colorBlack" />
+
+          <TextView
+              android:id="@+id/txtAlimusulu"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_marginLeft="5dp"
+              android:padding="1dp"
+              android:layout_below="@id/txtDosyaturu"
+              android:text="Alım Usulü: "
+              android:textColor="@color/colorBlack" />
+
+          <!--android:layout_alignBaseline="@id/txtDosyaturu"
+            android:layout_alignParentRight="true"-->
+
+
+          <TextView
+              android:id="@+id/txtAlimzamani"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_marginLeft="5dp"
+              android:padding="1dp"
+              android:text="Alım Zamanı: "
+              android:layout_below="@id/txtAlimusulu"
+              android:textColor="@color/colorBlack" />
+
+     <TextView
+         android:id="@+id/txtIsinturu"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="5dp"
+         android:layout_below="@id/txtAlimzamani"
+         android:text="İşin Türü:"
+         android:padding="1dp"
+         android:textColor="@color/colorBlack" />
+
+     <TextView
+         android:id="@+id/txtIdareadi"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/txtIsinturu"
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="5dp"
+         android:padding="1dp"
+         android:textColor="@color/colorBlack"
+         android:text="İdarenin Adı:"      />
+
+     <TextView
+         android:id="@+id/txtGorevli"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="5dp"
+         android:padding="1dp"
+         android:text="Görevli"
+         android:layout_below="@id/txtIdareadi"
+         android:textColor="@color/colorBlack" />
+
+          <TextView
+              android:id="@+id/txtIhalekayitno"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_marginLeft="5dp"
+              android:padding="1dp"
+              android:text="İhale Kayıt Numarası:"
+              android:layout_below="@id/txtGorevli"
+              android:textColor="@color/colorBlack" />
+
+     <TextView
+         android:id="@+id/txtIsintanimi"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="İşin Tanımı: "
+         android:layout_below="@id/txtIhalekayitno"
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="5dp"
+         android:padding="1dp"
+         android:textColor="@color/colorBlack"
+         android:textSize="14dp"/>
+
+
+
+
+
+
+ </RelativeLayout>
+
+
+ </androidx.cardview.widget.CardView>
+
+
+
+
+

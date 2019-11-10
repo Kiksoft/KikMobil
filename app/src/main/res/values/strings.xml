@@ -1,0 +1,59 @@
+<resources>
+
+    <string-array name="ips">
+        <item>192.168.1.2:8081 </item>
+        <item>192.168.1.4:8080 </item>
+    </string-array>
+
+    <string-array name="veri">
+        <item>KIK-2019 </item>
+        <item>KIK-2018 </item>
+        <item>KIK-2017 </item>
+        <item>KIK-2016 </item>
+    </string-array>
+
+    <string name="app_name">KİK MOBİL</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+
+    <string name="fa_glass">&#xf000;</string>
+    <string name="fa_music">&#xf001;</string>
+    <string name="fa_search">&#xf002;</string>
+    <string name="fa_envelope_o">&#xf003;</string>
+    <string name="fa_heart">&#xf004;</string>
+    <string name="fa_star">&#xf005;</string>
+    <string name="fa_star_o">&#xf006;</string>
+    <string name="fa_user">&#xf007;</string>
+    <string name="fa_film">&#xf008;</string>
+    <string name="fa_chevron_right">&#xf054;</string>
+    <string name="fa_chevron_down">&#xf078;</string>
+    <string name="title_activity_my_files">MyFiles</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>

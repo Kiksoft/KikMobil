@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- A CardView that contains another views -->
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="4dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtIhaleDosyano"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/colorinsGreen"
+            android:text="Dosya No: "
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"/>
+        <TextView
+            android:id="@+id/txtIhaleIsinTanimi"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="İşin Tanımı: "
+            android:layout_below="@id/txtIhaleDosyano"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack"
+            android:textSize="14dp"/>
+
+        <TextView
+        android:id="@+id/txtIhaleIsınTuru"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Aşama: "
+        android:layout_below="@id/txtIhaleIsinTanimi"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/txtIhaleKayıtno"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Aşama: "
+            android:layout_below="@id/txtIhaleIsınTuru"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/txtIhaleAsama"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Aşama: "
+            android:layout_below="@id/txtIhaleKayıtno"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/txtIhaleBirim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:gravity="center_vertical"
+            android:layout_below="@id/txtIhaleAsama"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorBlack"
+            android:text="Ihale eden Birim:" />  <!--android:textSize="18sp"-->
+
+
+
+        <TextView
+            android:id="@+id/txtIhaleTalepEvrakno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@id/txtIhaleBirim"
+            android:text="Ihale evrak no:"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/txtIhaleAlimtarihi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:padding="1dp"
+            android:layout_below="@id/txtIhaleTalepEvrakno"
+            android:text="Ihale evrak tarihi: "
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/txtIhaleTalepEvraktarihi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:padding="1dp"
+            android:layout_below="@id/txtIhaleAlimtarihi"
+            android:text="Ihale evrak tarihi: "
+            android:textColor="@color/colorBlack" />
+
+
+
+
+        <TextView
+            android:id="@+id/txtIhaleIdareadı"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:padding="1dp"
+            android:text="İdare Adı: "
+            android:layout_below="@id/txtIhaleTalepEvraktarihi"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/txtIhaleGorevli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@id/txtIhaleIdareadı"
+            android:text="Görevli:"
+            android:padding="1dp"
+            android:textColor="@color/colorBlack" />
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

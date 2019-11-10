@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- A CardView that contains another views -->
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="4dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtSozlesmeIhaleKayitNo"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/txtSozlesmeDosyaNo"
+            android:text="Dosya No: "
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/txtSozlesmeDosyaNo"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/colorinsGreen"
+            android:gravity="center_vertical"
+            android:text="Dosya No: "
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/txtSozlesmeIsinAdi"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="İşin Tanımı: "
+            android:layout_below="@id/txtSozlesmeIhaleKayitNo"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/txtSozlesmeFirmaAdi"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Aşama: "
+            android:layout_below="@id/txtSozlesmeIsinAdi"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack" />
+
+
+
+        <TextView
+            android:id="@+id/txtSozlesmeBaslangicTarihi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:gravity="center_vertical"
+            android:layout_below="@id/txtSozlesmeFirmaAdi"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorBlack"
+            android:text="Sozlesme eden Birim:" />  <!--android:textSize="18sp"-->
+
+
+
+        <TextView
+            android:id="@+id/txtSozlesmeBitisTarihi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@id/txtSozlesmeBaslangicTarihi"
+            android:text="Sozlesme evrak no:"
+            android:textColor="@color/colorBlack" />
+
+
+        <TextView
+            android:id="@+id/txtSozlesmeToplami"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtSozlesmeBitisTarihi"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:text="Sozlesme evrak tarihi: "
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/txtSozlesmeGorevli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:padding="1dp"
+            android:layout_below="@id/txtSozlesmeToplami"
+            android:text="Sozlesme evrak tarihi: "
+            android:textColor="@color/colorBlack" />
+
+        <!--android:layout_alignBaseline="@id/txtDosyaturu"
+          android:layout_alignParentRight="true"-->
+
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

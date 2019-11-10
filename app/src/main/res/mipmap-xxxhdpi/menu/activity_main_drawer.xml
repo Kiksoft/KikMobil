@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ıslemler"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="İşlemler" />
+        <item
+            android:id="@+id/nav_dıger_ıslemler"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Diğer İşlemler" />
+        <item
+            android:id="@+id/nav_raporlar"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Raporlar" />
+        <item
+            android:id="@+id/nav_ayarlarım"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ayarlarım" />
+
+        <item
+            android:id="@+id/nav_yardım"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Yardım" />
+
+    </group>
+
+</menu>
